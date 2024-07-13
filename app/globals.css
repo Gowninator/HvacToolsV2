@@ -1,0 +1,81 @@
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background:teal
+}
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid rgba(255, 255, 255, 0);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #34495e;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.introtekst {
+  color: rgb(255, 255, 255);
+  background-color: #34495e;
+  display: flex;
+  flex-direction: column;
+  justify-content: left baseline;
+  align-items: last baseline;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.introtekst p {
+  margin: 1cap 0; /* Adds space between paragraphs */
+}
+
+.FPKnap {
+  color: rgb(255, 255, 255);
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #34495e;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 10px;
+  width: 12rem;
+  border-radius: 5px;
+}
+.FPKnap:hover{
+  background-color: #3b536be5;
+  border: 2px solid rgb(103, 103, 103);
+}
+.HKnap {
+  color: rgb(255, 255, 255);
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(0, 0, 0);
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 0.2rem;
+  width: 4rem;
+  border-radius: 5px;
+}
+.HKnap:hover{
+  background-color: rgb(135, 135, 135);
+  border: 2px solid rgb(103, 103, 103);
+}
