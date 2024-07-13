@@ -142,7 +142,7 @@ const Luftskifte: React.FC = () => {
           </div>
 
          {/* _____________Beregnknap__________________ */} 
-          <button onClick={handleCalculate} className="calculate-button">Beregn luftmængde</button>
+          <button onClick={handleCalculate} className="calculate-button">Beregn</button>
           {result !== null && (
             <div className="result">
               <h2>CO2-koncentration efter 1 time: {result.toFixed(0)} ppm</h2>
